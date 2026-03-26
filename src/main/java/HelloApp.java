@@ -4,10 +4,9 @@ public class HelloApp {
         String name = "World";
 
         if (args.length > 0) {
-            name = args[0];
+            name = String.join(", ", args);
         }
 
         System.out.println("Hello, " + name + "!");
     }
 }
-//UC3
